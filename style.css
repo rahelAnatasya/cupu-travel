@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('images/tugu.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.container {
+    text-align: left;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    width: 400px;
+    margin-top: 200px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="email"] {
+    width: 80%;
+    margin-left:40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+input[type="password"] {
+    width: 80%;
+    margin-left:40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+input[type="ulang_password"] {
+    width: 80%;
+    margin-left:40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+input[type="password"] {
+    font-family: 'password-font', sans-serif;
+    -webkit-text-security: disc; /* Mengubah karakter jadi bulat atau bintang */
+}
+
+input[type="password"] {
+    font-family: 'password-font';
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+button {
+    width:240px;
+    padding: 10px 20px;
+    margin-top:25px;
+    margin-left:80px;
+    font-size: 16px;
+    background-color: #d9d9d9;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+/* INPUT OTP */
+.otp-container {
+    text-align: left;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    width: 800px;
+    margin-top: 200px;
+}
+
+.otp-inputs {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.otp-inputs input {
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
